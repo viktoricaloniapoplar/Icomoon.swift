@@ -14,7 +14,7 @@ internal struct Font {
     static let FontName = "%s"
 }
 
-public enum Icon: String {
+public enum Icon: String, CaseIterable {
 """ % font_name
 
 temp_list = []
